@@ -1,3 +1,5 @@
+const { images } = require('./next.config');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -15,4 +17,6 @@ module.exports = {
     },
   },
   plugins: [],
+  darkMode: 'class',
+  
 }
